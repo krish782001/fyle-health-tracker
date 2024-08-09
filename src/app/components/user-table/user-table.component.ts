@@ -37,7 +37,7 @@ export class UserTableComponent implements OnInit, AfterViewInit {
       this.selectedWorkoutType
     );
     this.dataSource.data = filteredUsers;
-    this.paginator.length = filteredUsers.length; // Update the length property
+    this.paginator.length = filteredUsers.length;
 
     if (this.paginator) {
       this.paginator.firstPage();

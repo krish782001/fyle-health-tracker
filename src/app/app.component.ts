@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isFormVisible = false; // Controls the visibility of the form
-  isChartVisible = false; // Controls the visibility of the chart
+  isFormVisible = false; 
+  isChartVisible = false;
 
   toggleForm() {
     this.isFormVisible = !this.isFormVisible;

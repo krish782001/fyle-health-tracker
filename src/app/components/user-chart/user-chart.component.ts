@@ -1,4 +1,4 @@
-// src/app/components/user-chart/user-chart.component.ts
+
 import { Component, OnInit } from '@angular/core';
 import { ChartData, ChartOptions } from 'chart.js';
 import { UserService } from '../../services/user.service';
