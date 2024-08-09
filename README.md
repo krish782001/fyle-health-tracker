@@ -1,24 +1,7 @@
-# HealthChallenge
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
-
-Just clone the repo and run command  
-
---install npm packages--
-npm i --force
-
---run the project--
-ng  serve
-
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-# TechStack
-
-Angular 16
-Angular Material
-Tailwind css
-
+## HealthChallenge
+### Notes:
+1. **Clone the Repository**: git clone https://github.com/krish782001/fyle-health-tracker
+2. **Install NPM Packages**: npm i --force
+3. **Run the Project**: ng serve
+4. **Tech Stack**: Angular 16, Tailwind css, Material ui
 
