@@ -15,4 +15,10 @@ ng  serve
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+# TechStack
+
+Angular 16
+Angular Material
+Tailwind css
+
 
