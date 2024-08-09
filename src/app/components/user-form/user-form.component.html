@@ -1,0 +1,52 @@
+<mat-card class="bg-white shadow-lg rounded-lg p-6 max-w-lg mx-auto mt-8 bg-gradient-to-r from-violet-500 to-fuchsia-500">
+  <mat-card-title class="text-2xl font-semibold text-gray-800 mb-4 text-center">Add Workout</mat-card-title>
+  <mat-card-content class="mt-2">
+    <form (ngSubmit)="addUser()" class="space-y-4">
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          placeholder="User Name"
+          [(ngModel)]="user.name"
+          name="name"
+          required
+          class="border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </mat-form-field>
+
+      <mat-form-field class="w-full">
+        <mat-select
+          placeholder="Workout Type"
+          [(ngModel)]="user.workoutType"
+          name="workoutType"
+          required
+          class="border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+          <mat-option *ngFor="let type of workoutTypes" [value]="type">
+            {{ type }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="w-full">
+        <input
+          matInput
+          type="number"
+          placeholder="Workout Minutes"
+          [(ngModel)]="user.workoutMinutes"
+          name="workoutMinutes"
+          required
+          class="border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </mat-form-field>
+
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      >
+        Add
+      </button>
+    </form>
+  </mat-card-content>
+</mat-card>
