@@ -10,4 +10,6 @@
 
 4. **Tech Stack**: Angular 16, Tailwind css, Material ui
 
-5. **Assumptions**: After adding the data you have to refresh once beacause the table get the data from local storage
+5. **Assumptions**: After adding the data you have to refresh once beacause the table get the data from local storage.
+
+   2 buttons is present in this application both are toggly switch.
